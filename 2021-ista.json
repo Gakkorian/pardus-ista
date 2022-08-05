@@ -10,7 +10,8 @@
         "Pardus19Server": 0,
         "Pardus21Gnome": 0,
         "Pardus21Xfce": 0,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 0
       },
       {
         "Ay": "Feb",
@@ -21,7 +22,8 @@
         "Pardus19Server": 1848,
         "Pardus21Gnome": 0,
         "Pardus21Xfce": 0,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 38027
       },
       {
         "Ay": "Mar",
@@ -33,7 +35,8 @@
         "Pardus19GnomeXfce": 5,
         "Pardus21Gnome": 0,
         "Pardus21Xfce": 0,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 129149
       },
       {
         "Ay": "Apr",
@@ -45,7 +48,8 @@
         "Pardus19GnomeXfce": 2,
         "Pardus21Gnome": 0,
         "Pardus21Xfce": 0,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 45797
       },
       {
         "Ay": "May",
@@ -56,7 +60,8 @@
         "Pardus19Server": 1428,
         "Pardus21Gnome": 0,
         "Pardus21Xfce": 0,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 49020
       },
       {
         "Ay": "Jun",
@@ -67,7 +72,8 @@
         "Pardus19Server": 703,
         "Pardus21Xfce": 1973,
         "Pardus21Gnome": 0,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 30980
       },
       {
         "Ay": "Jul",
@@ -78,7 +84,8 @@
         "Pardus19Server": 957,
         "Pardus21Gnome": 591,
         "Pardus21Xfce": 1904,
-        "Pardus21Server": 0
+        "Pardus21Server": 0,
+        "PardusToplam": 41580
       },
       {
         "Ay": "Aug",
@@ -89,7 +96,8 @@
         "Pardus19Server": 1087,
         "Pardus21Gnome": 58084,
         "Pardus21Xfce": 65981,
-        "Pardus21Server": 15336
+        "Pardus21Server": 15336,
+        "PardusToplam": 158103
       },
       {
         "Ay": "Sep",
@@ -100,7 +108,8 @@
         "Pardus19Server": 1000,
         "Pardus21Gnome": 8520,
         "Pardus21Xfce": 39578,
-        "Pardus21Server": 1548
+        "Pardus21Server": 1548,
+        "PardusToplam": 56408
       },
       {
         "Ay": "Oct",
@@ -111,7 +120,8 @@
         "Pardus19Server": 551,
         "Pardus21Gnome": 8218,
         "Pardus21Xfce": 52018,
-        "Pardus21Server": 892
+        "Pardus21Server": 892,
+        "PardusToplam": 66091
       },
       {
         "Ay": "Nov",
@@ -122,7 +132,8 @@
         "Pardus21Gnome": 5861,
         "Pardus21Xfce": 29791,
         "Pardus21Server": 1811,
-        "Pardus19Server": 329
+        "Pardus19Server": 329,
+        "PardusToplam": 43063
       },
       {
         "Ay": "Dec",
@@ -133,7 +144,8 @@
         "Pardus21Gnome": 6769,
         "Pardus21Xfce": 35386,
         "Pardus21Server": 1059,
-        "Pardus19Server": 386
+        "Pardus19Server": 386,
+        "PardusToplam": 49414
       }
     ]
   }]
