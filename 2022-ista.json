@@ -10,7 +10,8 @@
 					"Pardus19Server": 244,
 					"Pardus21Gnome": 6315,
 					"Pardus21Xfce": 38671,
-					"Pardus21Server": 849
+					"Pardus21Server": 849,
+					"PardusToplam": 49189
 				},
 				{
 					"Ay": "Şubat",
@@ -21,7 +22,8 @@
 					"Pardus19Server": 394,
 					"Pardus21Gnome": 7439,
 					"Pardus21Xfce": 27119,
-					"Pardus21Server": 1183
+					"Pardus21Server": 1183,
+					"PardusToplam": 40285
 				},
 				{
 					"Ay": "Mart",
@@ -32,7 +34,8 @@
 					"Pardus19Server": 531,
 					"Pardus21Gnome": 8043,
 					"Pardus21Xfce": 35430,
-					"Pardus21Server": 1802
+					"Pardus21Server": 1802,
+					"PardusToplam": 49550
 				},
 				{
 					"Ay": "Nisan",
@@ -43,7 +46,8 @@
 					"Pardus21Gnome": 45506,
 					"Pardus21Xfce": 63302,
 					"Pardus21Server": 917,
-					"Pardus17Server": 341
+					"Pardus17Server": 341,
+					"PardusToplam": 113721
 				},
 				{
 					"Ay": "Mayıs",
@@ -54,7 +58,8 @@
 					"Pardus21Gnome": 10975,
 					"Pardus21Xfce": 113748,
 					"Pardus21Server": 1399,
-					"Pardus17Server": 1715
+					"Pardus17Server": 1715,
+					"PardusToplam": 130407
 				},
 				{
 					"Ay": "Haziran",
@@ -65,7 +70,8 @@
 					"Pardus19Server": 376,
 					"Pardus21Gnome": 14516,
 					"Pardus21Xfce": 26350,
-					"Pardus21Server": 564
+					"Pardus21Server": 564,
+					"PardusToplam": 44664
 				},
 				{
 					"Ay": "Temmuz",
@@ -76,7 +82,8 @@
 					"Pardus19Server": 326,
 					"Pardus21Gnome": 36420,
 					"Pardus21Xfce": 75411,
-					"Pardus21Server": 7798
+					"Pardus21Server": 7798,
+					"PardusToplam": 121861
 				},
 				{
 					"Ay": "Ağustos"
