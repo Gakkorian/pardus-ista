@@ -3,6 +3,7 @@
 		"indirmeler": [{
 			"pardus": [{
 					"Ay": "Ocak",
+					"PardusEtap": 10253,
 					"Pardus17Xfce": 436,
 					"Pardus17Server": 416,
 					"Pardus19Gnome": 505,
@@ -15,6 +16,7 @@
 				},
 				{
 					"Ay": "Şubat",
+					"PardusEtap": 21541,
 					"Pardus17Xfce": 521,
 					"Pardus17Server": 233,
 					"Pardus19Gnome": 821,
@@ -27,6 +29,7 @@
 				},
 				{
 					"Ay": "Mart",
+					"PardusEtap": 41760,
 					"Pardus17Xfce": 646,
 					"Pardus17Server": 317,
 					"Pardus19Gnome": 649,
@@ -39,6 +42,7 @@
 				},
 				{
 					"Ay": "Nisan",
+					"PardusEtap": 9028,
 					"Pardus17Xfce": 591,
 					"Pardus19Gnome": 614,
 					"Pardus19Xfce": 1942,
@@ -51,6 +55,7 @@
 				},
 				{
 					"Ay": "Mayıs",
+					"PardusEtap": 4593,
 					"Pardus17Xfce": 247,
 					"Pardus19Gnome": 503,
 					"Pardus19Xfce": 1386,
@@ -63,6 +68,7 @@
 				},
 				{
 					"Ay": "Haziran",
+					"PardusEtap": 3532,
 					"Pardus17Xfce": 329,
 					"Pardus17Server": 282,
 					"Pardus19Gnome": 776,
@@ -75,6 +81,7 @@
 				},
 				{
 					"Ay": "Temmuz",
+					"PardusEtap": 1497,
 					"Pardus17Xfce": 199,
 					"Pardus17Server": 117,
 					"Pardus19Gnome": 438,
