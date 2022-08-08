@@ -3,6 +3,7 @@
   "indirmeler": [{
     "pardus": [{
         "Ay": "Jan",
+        "PardusEtap": 0,
         "Pardus17Xfce": 0,
         "Pardus17Server": 0,
         "Pardus19Gnome": 0,
@@ -15,6 +16,7 @@
       },
       {
         "Ay": "Feb",
+        "PardusEtap": 6919,
         "Pardus17Xfce": 543,
         "Pardus17Server": 450,
         "Pardus19Gnome": 6333,
@@ -27,6 +29,7 @@
       },
       {
         "Ay": "Mar",
+        "PardusEtap": 18792,
         "Pardus17Xfce": 934,
         "Pardus17Server": 473,
         "Pardus19Gnome": 47026,
@@ -40,6 +43,7 @@
       },
       {
         "Ay": "Apr",
+        "PardusEtap": 6847,
         "Pardus17Xfce": 616,
         "Pardus17Server": 710,
         "Pardus19Gnome": 7512,
@@ -53,6 +57,7 @@
       },
       {
         "Ay": "May",
+        "PardusEtap": 3076,
         "Pardus17Xfce": 400,
         "Pardus17Server": 649,
         "Pardus19Gnome": 8096,
@@ -65,6 +70,7 @@
       },
       {
         "Ay": "Jun",
+        "PardusEtap": 4960,
         "Pardus17Xfce": 914,
         "Pardus17Server": 380,
         "Pardus19Gnome": 3172,
@@ -77,6 +83,7 @@
       },
       {
         "Ay": "Jul",
+        "PardusEtap": 2057,
         "Pardus17Xfce": 330,
         "Pardus17Server": 11527,
         "Pardus19Gnome": 4044,
@@ -89,6 +96,7 @@
       },
       {
         "Ay": "Aug",
+        "PardusEtap": 3757,
         "Pardus17Xfce": 611,
         "Pardus17Server": 546,
         "Pardus19Gnome": 3383,
@@ -101,6 +109,7 @@
       },
       {
         "Ay": "Sep",
+        "PardusEtap": 24679,
         "Pardus17Xfce": 818,
         "Pardus17Server": 676,
         "Pardus19Gnome": 1019,
@@ -113,6 +122,7 @@
       },
       {
         "Ay": "Oct",
+        "PardusEtap": 131055,
         "Pardus17Xfce": 828,
         "Pardus17Server": 311,
         "Pardus19Gnome": 794,
@@ -125,6 +135,7 @@
       },
       {
         "Ay": "Nov",
+        "PardusEtap": 11577,
         "Pardus17Xfce": 808,
         "Pardus17Server": 416,
         "Pardus19Gnome": 658,
@@ -137,6 +148,7 @@
       },
       {
         "Ay": "Dec",
+        "PardusEtap": 21646,
         "Pardus17Xfce": 1276,
         "Pardus17Server": 414,
         "Pardus19Gnome": 1083,
