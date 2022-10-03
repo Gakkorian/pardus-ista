@@ -1,106 +1,109 @@
 // JSON datasının çektiğimiz fonksiyon.
-function updateCharti() {
-  async function fetchDatai(){
-    const urli = 'https://raw.githubusercontent.com/Gakkorian/pardus-ista/main/2021-ista.json';
-    const responsei = await fetch(urli);
-    const datapointsi = await responsei.json();
-    //console.log(datapointsi);
-    return datapointsi;
+function updateChart() {
+  async function fetchData(){
+    const url = 'https://raw.githubusercontent.com/Gakkorian/pardus-ista/main/2022-ista.json';
+    const response = await fetch(url);
+    const datapoints = await response.json();
+    // console.log(datapoints);
+    // Üstteki log da Json dosyasını 
+    return datapoints;
 
   };
   // Burada JSON dosyası okunup map() fonksiyonundan geçiriliyor.
-  fetchDatai().then(datapointsi => {
-    const month =datapointsi.indirmeler[0].pardus.map(function(index){
+  fetchData().then(datapoints => {
+    const month =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Ay;
     })
-    const Pardus21S =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus21S =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus21Server;
     })
-    const Pardus19S =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus19S =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus19Server;
     })
-    const Pardus21g =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus21g =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus21Gnome;
     })
-    const Pardus21x =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus21x =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus21Xfce;
     })
-    const Pardus19g =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus19g =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus19Gnome;
     })
-    const Pardus19x =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus19x =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus19Xfce;
     })
-    const Pardus17S =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus17S =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus17Server;
     })
-    const Pardus17x =datapointsi.indirmeler[0].pardus.map(function(index){
+    const Pardus17x =datapoints.indirmeler[0].pardus.map(function(index){
       return index.Pardus17Xfce;
     })
-    const PardusToplam =datapointsi.indirmeler[0].pardus.map(function(index){
+    const PardusToplam =datapoints.indirmeler[0].pardus.map(function(index){
       return index.PardusToplam;
     })
-    const EtapToplam =datapointsi.indirmeler[0].pardus.map(function(index){
+    const EtapToplam =datapoints.indirmeler[0].pardus.map(function(index){
       return index.PardusEtap;
     })
     // Burada kontrol için console çıktılarına bakıyoruz.
    
-    /* console.log(month);
+    /* 
+    console.log(month);
     console.log(Pardus21);
     console.log(Pardus19);
     console.log(Pardus21g);
     console.log(Pardus19g);
     console.log(Pardus21x);
-    console.log(Pardus19x);*/
+    console.log(Pardus19x);
+    */
     
     // Burada JSOn dosyasından okunan değerler charta yazılıyor.
    
-    myCharti.data.labelss=month;
-    myCharti.data.datasets[0].data=PardusToplam;
-    /*myCharti.data.datasets[1].data=Pardus19S;
-    myCharti.data.datasets[2].data=Pardus17S;
-    myCharti.data.datasets[3].data=Pardus21g;
-    myCharti.data.datasets[4].data=Pardus21x;
-    myCharti.data.datasets[5].data=Pardus19g;
-    myCharti.data.datasets[6].data=Pardus19x;
-    myCharti.data.datasets[7].data=Pardus17x;*/
-    myCharti.update();
+    myChart.data.labels=month;
+    myChart.data.datasets[0].data=PardusToplam;
+    /*myChart.data.datasets[1].data=Pardus19S;
+    myChart.data.datasets[2].data=Pardus17S;
+    myChart.data.datasets[3].data=Pardus21g;
+    myChart.data.datasets[4].data=Pardus21x;
+    myChart.data.datasets[5].data=Pardus19g;
+    myChart.data.datasets[6].data=Pardus19x;
+    myChart.data.datasets[7].data=Pardus17x;*/
+    myChart.update();
 
-    /*myChartLi.data.labelss=month;
-    myChartLi.data.datasets[0].data=Pardus21g;
-    myChartLi.data.datasets[1].data=Pardus21x;
-    myChartLi.update();
+    /*myChartL.data.labels=month;
+    myChartL.data.datasets[0].data=Pardus21g;
+    myChartL.data.datasets[1].data=Pardus21x;
+    myChartL.update();
 
-    myChartKi.data.labelss=month;
-    myChartKi.data.datasets[0].data=Pardus19g;
-    myChartKi.data.datasets[1].data=Pardus19x;
-    myChartKi.update();
+    myChartK.data.labels=month;
+    myChartK.data.datasets[0].data=Pardus19g;
+    myChartK.data.datasets[1].data=Pardus19x;
+    myChartK.update();
 
-    myChartJi.data.labelss=month;
-    myChartJi.data.datasets[0].data=Pardus21S;
-    myChartJi.data.datasets[1].data=Pardus19S;
-    myChartJi.data.datasets[2].data=Pardus17S;
-    myChartJi.update();
+    myChartJ.data.labels=month;
+    myChartJ.data.datasets[0].data=Pardus21S;
+    myChartJ.data.datasets[1].data=Pardus19S;
+    myChartJ.update();
 
-    myChartTi.data.labelss=month;
-    myChartTi.data.datasets[0].data=PardusToplam;
-    myChartTi.data.datasets[1].data=EtapToplam;
-    myChartTi.update();
+    myChartT.data.labels=month;
+    myChartT.data.datasets[0].data=PardusToplam;
+    myChartT.data.datasets[1].data=EtapToplam;
+    myChartT.update();*/
 
-   /* myChartEi.data.labelss=month;
-    myChartEi.data.datasets[0].data=EtapToplam;
-    myChartEi.update();*/
+   /* myChartE.data.labels=month;
+    myChartE.data.datasets[0].data=EtapToplam;
+    myChartE.update();*/
   });
 }
-updateCharti();
-const labelss = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
-let delayeds;
-const ctxi = document.getElementById('myCharti').getContext('2d');
-const myCharti = new Chart(ctxi, {
+updateChart();
+const labels = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık99999"];
+let delayed;
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: labelss,
-    datasets: [{
+    labels: labels,
+    datasets: [
+    {
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
       label: 'Pardus',
       borderColor: "orange",
@@ -109,7 +112,17 @@ const myCharti = new Chart(ctxi, {
       pointRadius: 8,
       pointHoverRadius: 12,
       tension: 0.5
-    }/*, { 
+    }
+    /*{
+      data: [0,0,0,0,0,0,0,0,0,0,0,0],
+      label: 'Pardus 21 Server',
+      borderColor: "red",
+      fill: true,
+      pointStyle: 'circle',
+      pointRadius: 8,
+      pointHoverRadius: 12,
+      tension: 0.5
+    }, { 
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
       borderColor: "green",
       label: 'Pardus 19 Server',
@@ -184,14 +197,19 @@ const myCharti = new Chart(ctxi, {
  
   // Chart 'ın özelliklerini belirlediğimiz kısım animasyon, lejand, açıklama kutusu ...
   options: {
+    scales: {
+          y: {
+            suggestedMin: 0,
+          }
+        },
     responsive: true,
-    animation: {
+   animation: {
         onComplete: () => {
             delayed = true;
         },
         delay: (context) => {
             let delay=0;
-            if(context.type === 'data' && context.mode === 'default' && !delayeds) {
+            if(context.type === 'data' && context.mode === 'default' && !delayed) {
                 delay=context.dataIndex * 300 + context.dataIndex * 100;
             }
             return delay;
@@ -222,7 +240,7 @@ const myCharti = new Chart(ctxi, {
     },
         title: {
             display: true,
-            text: 'Pardus 2021 İndirme İstatistiği',
+            text: 'Pardus 2022 İndirme İstatistiği',
             font: {
                 weight: 'bolder',
                 size: 18
@@ -237,11 +255,11 @@ const myCharti = new Chart(ctxi, {
     
   }
 });
-/*const ctx1i = document.getElementById('myChart21i').getContext('2d');
-const myChartLi = new Chart(ctx1i, {
+/*const ctx1 = document.getElementById('myChart21').getContext('2d');
+const myChartL = new Chart(ctx1, {
   type: "line",
   data: {
-    labels: labelss,
+    labels: labels,
     datasets: [
     { 
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
@@ -275,7 +293,7 @@ const myChartLi = new Chart(ctx1i, {
         },
         delay: (context) => {
             let delay=0;
-            if(context.type === 'data' && context.mode === 'default' && !delayeds) {
+            if(context.type === 'data' && context.mode === 'default' && !delayed) {
                 delay=context.dataIndex * 300 + context.dataIndex * 100;
             }
             return delay;
@@ -321,11 +339,11 @@ const myChartLi = new Chart(ctx1i, {
     
   }
 });
-const ctx2i = document.getElementById('myChart19i').getContext('2d');
-const myChartKi = new Chart(ctx2i, {
+const ctx2 = document.getElementById('myChart19').getContext('2d');
+const myChartK = new Chart(ctx2, {
   type: "line",
   data: {
-    labels: labelss,
+    labels: labels,
     datasets: [
     { 
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
@@ -359,7 +377,7 @@ const myChartKi = new Chart(ctx2i, {
         },
         delay: (context) => {
             let delay=0;
-            if(context.type === 'data' && context.mode === 'default' && !delayeds) {
+            if(context.type === 'data' && context.mode === 'default' && !delayed) {
                 delay=context.dataIndex * 300 + context.dataIndex * 100;
             }
             return delay;
@@ -405,11 +423,11 @@ const myChartKi = new Chart(ctx2i, {
     
   }
 });
-const ctx3i = document.getElementById('myChartSi').getContext('2d');
-const myChartJi = new Chart(ctx3i, {
+const ctx3 = document.getElementById('myChartS').getContext('2d');
+const myChartJ = new Chart(ctx3, {
   type: "line",
   data: {
-    labels: labelss,
+    labels: labels,
     datasets: [
     { 
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
@@ -430,16 +448,6 @@ const myChartJi = new Chart(ctx3i, {
       pointRadius: 8,
       pointHoverRadius: 12,
       tension: 0.5
-    },
-    { 
-      data: [0,0,0,0,0,0,0,0,0,0,0,0],
-      borderColor: "pink",
-      label: 'Pardus 17 Server',
-      fill: true,
-      pointStyle: 'circle',
-      pointRadius: 8,
-      pointHoverRadius: 12,
-      tension: 0.5
     }
   ]
   },
@@ -453,7 +461,7 @@ const myChartJi = new Chart(ctx3i, {
         },
         delay: (context) => {
             let delay=0;
-            if(context.type === 'data' && context.mode === 'default' && !delayeds) {
+            if(context.type === 'data' && context.mode === 'default' && !delayed) {
                 delay=context.dataIndex * 300 + context.dataIndex * 100;
             }
             return delay;
@@ -484,7 +492,7 @@ const myChartJi = new Chart(ctx3i, {
     },
         title: {
             display: true,
-            text: 'Pardus 21&19&17 Server İstatistikleri',
+            text: 'Pardus 21 ve 19 Server İstatistikleri',
             font: {
                 weight: 'bolder',
                 size: 18
@@ -499,11 +507,11 @@ const myChartJi = new Chart(ctx3i, {
     
   }
 });
-const ctx4i = document.getElementById('myChartTi').getContext('2d');
-const myChartTi = new Chart(ctx4i, {
+const ctx4 = document.getElementById('myChartT').getContext('2d');
+const myChartT = new Chart(ctx4, {
   type: "line",
   data: {
-    labels: labelss,
+    labels: labels,
     datasets: [
     { 
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
@@ -530,6 +538,11 @@ const myChartTi = new Chart(ctx4i, {
  
   // Chart 'ın özelliklerini belirlediğimiz kısım animasyon, lejand, açıklama kutusu ...
   options: {
+    scales: {
+          y: {
+            suggestedMin: 0,
+          }
+        },
     responsive: true,
     animation: {
         onComplete: () => {
@@ -537,7 +550,7 @@ const myChartTi = new Chart(ctx4i, {
         },
         delay: (context) => {
             let delay=0;
-            if(context.type === 'data' && context.mode === 'default' && !delayeds) {
+            if(context.type === 'data' && context.mode === 'default' && !delayed) {
                 delay=context.dataIndex * 300 + context.dataIndex * 100;
             }
             return delay;
@@ -578,21 +591,20 @@ const myChartTi = new Chart(ctx4i, {
                 bottom: 15
             }
         },
-        
     }
     
   }
 });
-/*const ctx5i = document.getElementById('myChartEi').getContext('2d');
-const myChartEi = new Chart(ctx5i, {
+/*const ctx5 = document.getElementById('myChartE').getContext('2d');
+const myChartE = new Chart(ctx5, {
   type: "line",
   data: {
-    labels: labelss,
+    labels: labels,
     datasets: [
     { 
       data: [0,0,0,0,0,0,0,0,0,0,0,0],
       borderColor: "blue",
-      label: 'ETAP Toplam İndirme',
+      label: 'ETAP',
       fill: true,
       pointStyle: 'circle',
       pointRadius: 8,
@@ -604,6 +616,11 @@ const myChartEi = new Chart(ctx5i, {
  
   // Chart 'ın özelliklerini belirlediğimiz kısım animasyon, lejand, açıklama kutusu ...
   options: {
+    scales: {
+          y: {
+            suggestedMin: 0,
+          }
+        },
     responsive: true,
     animation: {
         onComplete: () => {
@@ -611,7 +628,7 @@ const myChartEi = new Chart(ctx5i, {
         },
         delay: (context) => {
             let delay=0;
-            if(context.type === 'data' && context.mode === 'default' && !delayeds) {
+            if(context.type === 'data' && context.mode === 'default' && !delayed) {
                 delay=context.dataIndex * 300 + context.dataIndex * 100;
             }
             return delay;
@@ -642,7 +659,7 @@ const myChartEi = new Chart(ctx5i, {
     },
         title: {
             display: true,
-            text: 'ETAP Toplam İndirme İstatistikleri',
+            text: 'ETAP İndirme İstatistikleri',
             font: {
                 weight: 'bolder',
                 size: 18
@@ -652,108 +669,110 @@ const myChartEi = new Chart(ctx5i, {
                 bottom: 15
             }
         },
-        
     }
     
   }
 });
 */
-
 // Chart'ı resim olarak indirmme işlemi fonksiyonu.
-function downloadi(){
+function download(){
   const imageLink = document.createElement('a');
-  const canvas = document.getElementById('myCharti');
-  imageLink.download = "2021-İstatislik-PardusOS.png";
+  const canvas = document.getElementById('myChart');
+  imageLink.download = "2022-İstatislik-PardusOS.png";
   imageLink.href = canvas.toDataURL('image/png',0);
   imageLink.click();
 }
-/* function downloadLi(){
+
+/*
+function downloadL(){
   const imageLink = document.createElement('a');
-  const canvas = document.getElementById('myChart21i');
-  imageLink.download = "2021-İstatislik-PardusOS-21.png";
+  const canvas = document.getElementById('myChart21');
+  imageLink.download = "2022-İstatislik-PardusOS-21.png";
   imageLink.href = canvas.toDataURL('image/png',0);
   imageLink.click();
 }
-function downloadKi(){
+function downloadK(){
   const imageLink = document.createElement('a');
-  const canvas = document.getElementById('myChart19i');
-  imageLink.download = "2021-İstatislik-PardusOS-19.png";
+  const canvas = document.getElementById('myChart19');
+  imageLink.download = "2022-İstatislik-PardusOS-19.png";
   imageLink.href = canvas.toDataURL('image/png',0);
   imageLink.click();
 }
-function downloadJi(){
+function downloadJ(){
   const imageLink = document.createElement('a');
-  const canvas = document.getElementById('myChartSi');
-  imageLink.download = "2021-İstatislik-PardusOS-Server.png";
+  const canvas = document.getElementById('myChartS');
+  imageLink.download = "2022-İstatislik-PardusOS-Server.png";
   imageLink.href = canvas.toDataURL('image/png',0);
   imageLink.click();
 }
-function downloadTi(){
+function downloadT(){
   const imageLink = document.createElement('a');
-  const canvas = document.getElementById('myChartTi');
-  imageLink.download = "2021-İstatislik-PardusOS-total-download.png";
+  const canvas = document.getElementById('myChartT');
+  imageLink.download = "2022-İstatislik-PardusOS-Total.png";
   imageLink.href = canvas.toDataURL('image/png',0);
   imageLink.click();
 }
-/*function downloadEi(){
+/*function downloadE(){
   const imageLink = document.createElement('a');
-  const canvas = document.getElementById('myChartEi');
-  imageLink.download = "2021-İstatislik-ETAP-total-download.png";
+  const canvas = document.getElementById('myChartE');
+  imageLink.download = "2022-İstatislik-ETAP-Total.png";
   imageLink.href = canvas.toDataURL('image/png',0);
   imageLink.click();
 }*/
+
 // Chart'ı PDF olarak indirdme işlemi fonksiyonu.
-function downloadPDFi(){
-  const canvas = document.getElementById('myCharti');
+function downloadPDF(){
+  const canvas = document.getElementById('myChart');
+  const canvasImage = canvas.toDataURL('image/png', 0);
+  //console.log(canvasImage);
+  let pdf = new jsPDF('landscape');
+  pdf.setFontSize(15);
+  pdf.addImage(canvasImage, 'PNG', 5, 10, 280, 180);
+  pdf.save('2022-İstatislik-PardusOS-download-count.pdf');
+}
+/*
+function downloadPDFL(){
+  const canvas = document.getElementById('myChart21');
   const canvasImage = canvas.toDataURL('image/png', 0);
   console.log(canvasImage);
   let pdf = new jsPDF('landscape');
   pdf.setFontSize(15);
-  pdf.addImage(canvasImage, 'PNG', 5, 10, 280, 180);
-  pdf.save('2021-İstatislik-PardusOS-download-count.pdf');
+  pdf.addImage(canvasImage, 'PNG', 5, 5, 280, 200);
+  pdf.save('2022-İstatislik-PardusOS-21-download-count.pdf');
 }
-/*function downloadPDFLi(){
-  const canvas = document.getElementById('myChart21i');
+function downloadPDFK(){
+  const canvas = document.getElementById('myChart19');
   const canvasImage = canvas.toDataURL('image/png', 0);
   console.log(canvasImage);
   let pdf = new jsPDF('landscape');
   pdf.setFontSize(15);
-  pdf.addImage(canvasImage, 'PNG', 5, 10, 280, 180);
-  pdf.save('2021-İstatislik-PardusOS-21-download-count.pdf');
+  pdf.addImage(canvasImage, 'PNG', 5, 5, 280, 200);
+  pdf.save('2022-İstatislik-PardusOS-19-download-count.pdf');
 }
-function downloadPDFKi(){
-  const canvas = document.getElementById('myChart19i');
+function downloadPDFJ(){
+  const canvas = document.getElementById('myChartS');
   const canvasImage = canvas.toDataURL('image/png', 0);
   console.log(canvasImage);
   let pdf = new jsPDF('landscape');
   pdf.setFontSize(15);
-  pdf.addImage(canvasImage, 'PNG', 5, 10, 280, 180);
-  pdf.save('2021-İstatislik-PardusOS-19-download-count.pdf');
+  pdf.addImage(canvasImage, 'PNG', 5, 5, 280, 200);
+  pdf.save('2022-İstatislik-PardusOS-Server-download-count.pdf');
 }
-function downloadPDFJi(){
-  const canvas = document.getElementById('myChartSi');
+function downloadPDFT(){
+  const canvas = document.getElementById('myChartT');
   const canvasImage = canvas.toDataURL('image/png', 0);
   console.log(canvasImage);
   let pdf = new jsPDF('landscape');
   pdf.setFontSize(15);
-  pdf.addImage(canvasImage, 'PNG', 5, 10, 280, 180);
-  pdf.save('2021-İstatislik-PardusOS-Server-download-count.pdf');
+  pdf.addImage(canvasImage, 'PNG', 5, 5, 280, 200);
+  pdf.save('2022-İstatislik-PardusOS-total-download-count.pdf');
 }
-function downloadPDFTi(){
-  const canvas = document.getElementById('myChartTi');
-  const canvasImage = canvas.toDataURL('image/png', 0);
-  console.log(canvasImage);
-  let pdf = new jsPDF('landscape');
-  pdf.setFontSize(15);
-  pdf.addImage(canvasImage, 'PNG', 5, 10, 280, 180);
-  pdf.save('2021-İstatislik-PardusOS-total-count.pdf');
-}
-/*function downloadPDFEi(){
-  const canvas = document.getElementById('myChartEi');
+/*function downloadPDFE(){
+  const canvas = document.getElementById('myChartE');
   const canvasImage = canvas.toDataURL('image/png', 0);
   console.log(canvasImage);
   let pdf = new jsPDF('landscape');
   pdf.setFontSize(15);
   pdf.addImage(canvasImage, 'PNG', 5, 5, 280, 150);
-  pdf.save('2021-İstatislik-ETAP-total-count.pdf');
+  pdf.save('2022-İstatislik-Etap-total-download-count.pdf');
 }*/
