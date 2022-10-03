@@ -93,10 +93,30 @@
 					"PardusToplam": 123358
 				},
 				{
-					"Ay": "Ağustos"
+					"Ay": "Ağustos",
+					"PardusEtap": 3332,
+					"Pardus17Xfce": 328,
+					"Pardus17Server": 244,
+					"Pardus19Gnome": 1600,
+					"Pardus19Xfce": 3092,
+					"Pardus19Server": 1003,
+					"Pardus21Gnome": 10857,
+					"Pardus21Xfce": 25888,
+					"Pardus21Server": 1979,
+					"PardusToplam": 48323
 				},
 				{
-					"Ay": "Eylül"
+					"Ay": "Eylül",
+					"PardusEtap": 22468,
+					"Pardus17Xfce": 339,
+					"Pardus17Server": 115,
+					"Pardus19Gnome": 1247,
+					"Pardus19Xfce": 1501,
+					"Pardus19Server": 240,
+					"Pardus21Gnome": 12903,
+					"Pardus21Xfce": 52253,
+					"Pardus21Server": 500,
+					"PardusToplam": 91566
 				},
 				{
 					"Ay": "Ekim"
