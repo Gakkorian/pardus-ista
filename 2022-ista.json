@@ -145,7 +145,17 @@
 					"PardusToplam": 61461
 				},
 				{
-					"Ay": "Aralık"
+					"Ay": "Aralık",
+					"PardusEtap": 12324,
+					"Pardus17Xfce": 3155,
+					"Pardus17Server": 223,
+					"Pardus19Gnome": 9604,
+					"Pardus19Xfce": 3559,
+					"Pardus19Server": 142,
+					"Pardus21Gnome": 19013,
+					"Pardus21Xfce": 27367,
+					"Pardus21Server": 1390,
+					"PardusToplam": 76777
 				}
 			]
 		}]
