@@ -1,0 +1,81 @@
+{
+    "year": 2023,
+    "indirmeler": [
+    {
+      "pardus": [
+        {
+          "Ay": "Ocak",
+          "UpdateCount": 7064671,
+          "UpgradeCount": 5743,
+          "PardusEtap": 6402,
+          "Pardus17Xfce": 318,
+          "Pardus17Server": 381,
+          "Pardus19Gnome": 547,
+          "Pardus19Xfce": 697,
+          "Pardus19Server": 276,
+          "Pardus21Gnome": 10615,
+          "Pardus21Xfce": 215588,
+          "Pardus21Server": 913,
+          "PardusToplam":235708
+        },
+        {
+          "Ay": "Şubat",
+          "UpdateCount": 5113708,
+          "UpgradeCount": 11642,
+          "PardusEtap": 4855,
+          "Pardus17Xfce": 318,
+          "Pardus17Server": 173,
+          "Pardus19Gnome": 196,
+          "Pardus19Xfce": 981,
+          "Pardus19Server": 152,
+          "Pardus21Gnome": 8158,
+          "Pardus21Xfce": 82815,
+          "Pardus21Server": 685,
+          "PardusToplam":98333
+        },
+        {
+          "Ay": "Mart",
+          "UpdateCount": 9159334,
+          "UpgradeCount": 7275,
+          "PardusEtap": 11516,
+          "Pardus17Xfce": 186,
+          "Pardus17Server": 6569,
+          "Pardus19Gnome": 409,
+          "Pardus19Xfce": 970,
+          "Pardus19Server": 168,
+          "Pardus21Gnome": 13325,
+          "Pardus21Xfce": 19426,
+          "Pardus21Server": 750,
+          "PardusToplam": 53319
+        },
+        {
+          "Ay": "Nisan"
+        },
+        {
+          "Ay": "Mayıs"
+        },
+        {
+          "Ay": "Haziran"
+        },
+        {
+          "Ay": "Temmuz"
+        },
+        {
+          "Ay": "Ağustos"
+        },
+        {
+          "Ay": "Eylül"
+        },
+        {
+          "Ay": "Ekim"
+        },
+        {
+          "Ay": "Kasım"
+        },
+        {
+          "Ay": "Aralık"
+        }
+    ]
+    }
+  ]
+}
