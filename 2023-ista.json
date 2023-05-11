@@ -49,7 +49,19 @@
           "PardusToplam": 53319
         },
         {
-          "Ay": "Nisan"
+          "Ay": "Nisan",
+          "UpdateCount": 6524989,
+          "UpgradeCount": 10698,
+          "PardusEtap": 31360,
+          "Pardus17Xfce": 160,
+          "Pardus17Server": 306,
+          "Pardus19Gnome": 361,
+          "Pardus19Xfce": 818,
+          "Pardus19Server": 230,
+          "Pardus21Gnome": 8548,
+          "Pardus21Xfce": 14118,
+          "Pardus21Server": 467,
+          "PardusToplam": 56368
         },
         {
           "Ay": "Mayıs"
