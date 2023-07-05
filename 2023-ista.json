@@ -84,7 +84,21 @@
           "PardusToplam": 110433
         },
         {
-          "Ay": "Haziran"
+          "Ay": "Haziran",        
+          "UpdateCount": 4972214,
+          "UpgradeCount": 19300,
+          "PardusEtap": 3551,
+          "DebianCount": 4201113,
+          "Pardus17Xfce": 263,
+          "Pardus17Server": 246,
+          "Pardus19Gnome": 131,
+          "Pardus19Xfce": 552,
+          "Pardus19Server": 150,
+          "Pardus21Gnome": 5378,
+          "Pardus21Xfce": 10381,
+          "Pardus21Server": 404,
+          "PardusToplam": 21056
+          
         },
         {
           "Ay": "Temmuz"
