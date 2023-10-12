@@ -101,13 +101,56 @@
           
         },
         {
-          "Ay": "Temmuz"
+          "Ay": "Temmuz",
+          "UpdateCount": 2898408,
+          "UpgradeCount": 23535,
+          "PardusEtap": 2576,
+          "DebianCount": 2692596,
+          "Pardus17Xfce": 165,
+          "Pardus17Server": 37,
+          "Pardus19Gnome": 226,
+          "Pardus19Xfce": 372,
+          "Pardus19Server": 56,
+          "Pardus21Gnome": 5041,
+          "Pardus21Xfce": 10277,
+          "Pardus21Server": 151,
+          "PardusToplam": 16325
         },
         {
-          "Ay": "Ağustos"
+          "Ay": "Ağustos",
+          "UpdateCount": 2803273,
+          "UpgradeCount": 29639,
+          "PardusEtap": 30460,
+          "DebianCount": 3181861,
+          "Pardus17Xfce": 214,
+          "Pardus17Server": 381,
+          "Pardus19Gnome": 346,
+          "Pardus19Xfce": 305,
+          "Pardus21Gnome": 6513,
+          "Pardus21Xfce": 13845,
+          "Pardus19Server": 153,
+          "Pardus21Server": 181,
+          "Pardus23Gnome": 3776,
+          "Pardus23Xfce": 6342,
+          "PardusToplam": 32056
         },
         {
-          "Ay": "Eylül"
+          "Ay": "Eylül",
+          "UpdateCount": 7606021,
+          "UpgradeCount": 27529,
+          "PardusEtap": 25783,
+          "DebianCount": 8859040,
+          "Pardus17Xfce": 398,
+          "Pardus17Server": 384,
+          "Pardus19Gnome": 539,
+          "Pardus19Xfce": 531,
+          "Pardus19Server": 120,
+          "Pardus21Gnome": 1061,
+          "Pardus21Xfce": 2094,
+          "Pardus21Server": 480,
+          "Pardus23Gnome": 19489,
+          "Pardus23Xfce": 30469,
+          "PardusToplam": 55565
         },
         {
           "Ay": "Ekim"
