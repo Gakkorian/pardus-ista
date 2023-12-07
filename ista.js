@@ -72,7 +72,7 @@ function updateChart() {
     /*myChartL.data.labels=month;
     myChartL.data.datasets[0].data=Pardus21g;
     myChartL.data.datasets[1].data=Pardus21x;
-    myChartL.update();
+
 
     myChartK.data.labels=month;
     myChartK.data.datasets[0].data=Pardus19g;
