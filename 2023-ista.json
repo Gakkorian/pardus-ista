@@ -189,7 +189,22 @@
         "PardusToplam": 56572
       },
       {
-        "Ay": "Aralık"
+        "Ay": "Aralık",
+        "UpdateCount": 8817528,
+        "UpgradeCount": 22448,
+        "PardusEtap": 16325,
+        "DebianCount": 3654531,
+        "Pardus17Xfce": 437,
+        "Pardus19Gnome": 1289,
+        "Pardus19Xfce": 1514,
+        "Pardus19Server": 448,
+        "Pardus21Gnome": 4556,
+        "Pardus21Xfce": 3119,
+        "Pardus21Server": 291,
+        "Pardus23Gnome": 18337,
+        "Pardus23Xfce": 22781,
+        "Pardus17Server": 346,
+        "PardusToplam": 69443
       }
   ]
   }
