@@ -190,21 +190,21 @@
       },
       {
         "Ay": "Aralık",
-        "UpdateCount": 8817528,
-        "UpgradeCount": 22448,
-        "PardusEtap": 16325,
-        "DebianCount": 3654531,
-        "Pardus17Xfce": 437,
-        "Pardus19Gnome": 1289,
-        "Pardus19Xfce": 1514,
-        "Pardus19Server": 448,
-        "Pardus21Gnome": 4556,
-        "Pardus21Xfce": 3119,
-        "Pardus21Server": 291,
-        "Pardus23Gnome": 18337,
-        "Pardus23Xfce": 22781,
-        "Pardus17Server": 346,
-        "PardusToplam": 69443
+        "UpdateCount": 10300583,
+        "UpgradeCount": 28207,
+        "PardusEtap": 18039,
+        "DebianCount": 4656519,
+        "Pardus17Xfce": 488,
+        "Pardus19Gnome": 1341,
+        "Pardus19Xfce": 1598,
+        "Pardus19Server": 475,
+        "Pardus21Gnome": 4634,
+        "Pardus21Xfce": 3379,
+        "Pardus21Server": 357,
+        "Pardus23Gnome": 22221,
+        "Pardus23Xfce": 26618,
+        "Pardus17Server": 373,
+        "PardusToplam": 79523
       }
   ]
   }
