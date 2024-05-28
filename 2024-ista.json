@@ -1,0 +1,45 @@
+{
+  "year": 2023,
+  "indirmeler": [
+  {
+    "pardus": [
+            {
+          "Ay": "Ocak",
+          "UpdateCount": 7505082,
+          "UpgradeCount": 31637,
+          "PardusEtap": 12050,
+          "DebianCount": 5132938,
+          "Pardus17Xfce": 252,
+          "Pardus17Server": 278,
+          "Pardus19Gnome": 170,
+          "Pardus19Xfce": 519,
+          "Pardus19Server": 167,
+          "Pardus21Gnome": 516,
+          "Pardus21Xfce": 792,
+          "Pardus21Server": 323,
+          "Pardus23Gnome": 30709,
+          "Pardus23Xfce": 29303,
+          "Pardus23Server": 690,
+        },
+        {
+          "Ay": "Şubat",
+          "UpdateCount": 9856652,
+          "UpgradeCount": 39077,
+          "PardusEtap": 15377,
+          "DebianCount": 4592972,
+          "Pardus17Xfce": 290,
+          "Pardus17Server": 262,
+          "Pardus19Gnome": 356,
+          "Pardus19Xfce": 586,
+          "Pardus19Server": 178,
+          "Pardus21Gnome": 741,
+          "Pardus21Xfce": 953,
+          "Pardus21Server": 133,
+          "Pardus23Gnome": 20035,
+          "Pardus23Xfce": 24318,
+          "Pardus23Server": 860,
+        },
+  ]
+  }
+]
+}
