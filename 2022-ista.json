@@ -1,174 +1,117 @@
 {
-    "year": 2022,
-    "indirmeler": [{
-        "pardus": [{
-                "Ay": "Ocak",
-                "PardusEtap": 10253,
-                "Pardus17Xfce": 436,
-                "Pardus17Server": 416,
-                "DebianCount": 2648002,
-                "Pardus19Gnome": 505,
-                "Pardus19Xfce": 2602,
-                "Pardus19Server": 244,
-                "Pardus21Gnome": 6315,
-                "Pardus21Xfce": 38671,
-                "Pardus21Server": 849,
-                "PardusToplam": 59442
-            },
-            {
-                "Ay": "Şubat",
-                "PardusEtap": 21541,
-                "Pardus17Xfce": 521,
-                "Pardus17Server": 233,
-                "DebianCount": 2811408,
-                "Pardus19Gnome": 821,
-                "Pardus19Xfce": 2575,
-                "Pardus19Server": 394,
-                "Pardus21Gnome": 7439,
-                "Pardus21Xfce": 27119,
-                "Pardus21Server": 1183,
-                "PardusToplam": 61826
-            },
-            {
-                "Ay": "Mart",
-                "PardusEtap": 41760,
-                "Pardus17Xfce": 646,
-                "Pardus17Server": 317,
-                "DebianCount": 3610421,
-                "Pardus19Gnome": 649,
-                "Pardus19Xfce": 2132,
-                "Pardus19Server": 531,
-                "Pardus21Gnome": 8043,
-                "Pardus21Xfce": 35430,
-                "Pardus21Server": 1802,
-                "PardusToplam": 91310
-            },
-            {
-                "Ay": "Nisan",
-                "PardusEtap": 9028,
-                "Pardus17Xfce": 591,
-                "Pardus19Gnome": 614,
-                "DebianCount": 2777320,
-                "Pardus19Xfce": 1942,
-                "Pardus19Server": 508,
-                "Pardus21Gnome": 45506,
-                "Pardus21Xfce": 63302,
-                "Pardus21Server": 917,
-                "Pardus17Server": 341,
-                "PardusToplam": 122749
-            },
-            {
-                "Ay": "Mayıs",
-                "PardusEtap": 4593,
-                "Pardus17Xfce": 247,
-                "Pardus19Gnome": 503,
-                "DebianCount": 3047780,
-                "Pardus19Xfce": 1386,
-                "Pardus19Server": 434,
-                "Pardus21Gnome": 10975,
-                "Pardus21Xfce": 113748,
-                "Pardus21Server": 1399,
-                "Pardus17Server": 1715,
-                "PardusToplam": 135000
-            },
-            {
-                "Ay": "Haziran",
-                "PardusEtap": 3532,
-                "Pardus17Xfce": 329,
-                "Pardus17Server": 282,
-                "DebianCount": 2945999,
-                "Pardus19Gnome": 776,
-                "Pardus19Xfce": 1471,
-                "Pardus19Server": 376,
-                "Pardus21Gnome": 14516,
-                "Pardus21Xfce": 26350,
-                "Pardus21Server": 564,
-                "PardusToplam": 48196
-            },
-            {
-                "Ay": "Temmuz",
-                "PardusEtap": 1497,
-                "Pardus17Xfce": 199,
-                "Pardus17Server": 117,
-                "DebianCount": 2695120,
-                "Pardus19Gnome": 438,
-                "Pardus19Xfce": 1161,
-                "Pardus19Server": 326,
-                "Pardus21Gnome": 36420,
-                "Pardus21Xfce": 75411,
-                "Pardus21Server": 7798,
-                "PardusToplam": 123358
-            },
-            {
-                "Ay": "Ağustos",
-                "PardusEtap": 3332,
-                "Pardus17Xfce": 328,
-                "Pardus17Server": 244,
-                "DebianCount": 4717753,
-                "Pardus19Gnome": 1600,
-                "Pardus19Xfce": 3092,
-                "Pardus19Server": 1003,
-                "Pardus21Gnome": 10857,
-                "Pardus21Xfce": 25888,
-                "Pardus21Server": 1979,
-                "PardusToplam": 48323
-            },
-            {
-                "Ay": "Eylül",
-                "PardusEtap": 22468,
-                "Pardus17Xfce": 339,
-                "Pardus17Server": 115,
-                "DebianCount": 7808902,
-                "Pardus19Gnome": 1247,
-                "Pardus19Xfce": 1501,
-                "Pardus19Server": 240,
-                "Pardus21Gnome": 12903,
-                "Pardus21Xfce": 52253,
-                "Pardus21Server": 500,
-                "PardusToplam": 91566
-            },
-            {
-                "Ay": "Ekim",
-                "PardusEtap": 12272,
-                "Pardus17Xfce": 521,
-                "Pardus17Server": 193,
-                "DebianCount": 6273303,
-                "Pardus19Gnome": 491,
-                "Pardus19Xfce": 999,
-                "Pardus19Server": 211,
-                "Pardus21Gnome": 12027,
-                "Pardus21Xfce": 25387,
-                "Pardus21Server": 1056,
-                "PardusToplam": 53157
-            },
-            {
-                "Ay": "Kasım",
-                "PardusEtap": 14803,
-                "Pardus17Xfce": 243,
-                "Pardus19Gnome": 539,
-                "DebianCount": 3427094,
-                "Pardus19Xfce": 995,
-                "Pardus21Gnome": 17253,
-                "Pardus21Xfce": 25754,
-                "Pardus21Server": 1535,
-                "Pardus19Server": 132,
-                "Pardus17Server": 207,
-                "PardusToplam": 61461
-            },
-            {
-                "Ay": "Aralık",
-                "PardusEtap": 12324,
-                "Pardus17Xfce": 3155,
-                "Pardus17Server": 223,
-                "DebianCount": 3765634,
-                "Pardus19Gnome": 9604,
-                "Pardus19Xfce": 3559,
-                "Pardus19Server": 142,
-                "Pardus21Gnome": 19013,
-                "Pardus21Xfce": 27367,
-                "Pardus21Server": 1390,
-                "PardusToplam": 76777
-            }
-        ]
-    }]
+  "year": 2022,
+  "indirmeler": [
+    {
+      "pardus": [
+        {
+          "Ay": "Ocak",
+          "PardusEtap": 10253,
+          "DebianCount": 2648002,
+          "Pardus17": 3282,
+          "Pardus19": 3351,
+          "Pardus21": 45735,
+          "PardusToplam": 59442
+        },
+        {
+          "Ay": "Şubat",
+          "PardusEtap": 21541,
+          "DebianCount": 2811408,
+          "Pardus17": 754,
+          "Pardus19": 3790,
+          "Pardus21": 35741,
+          "PardusToplam": 61826
+        },
+        {
+          "Ay": "Mart",
+          "PardusEtap": 41760,
+          "DebianCount": 3610421,
+          "Pardus17": 963,
+          "Pardus19": 3312,
+          "Pardus21": 45375,
+          "PardusToplam": 91310
+        },
+        {
+          "Ay": "Nisan",
+          "PardusEtap": 9028,
+          "DebianCount": 2777320,
+          "Pardus17": 932,
+          "Pardus19": 3064,
+          "Pardus21": 109725,
+          "PardusToplam": 122749
+        },
+        {
+          "Ay": "Mayıs",
+          "PardusEtap": 4593,
+          "DebianCount": 3047780,
+          "Pardus17": 1962,
+          "Pardus19": 2323,
+          "Pardus21": 126122,
+          "PardusToplam": 135000
+        },
+        {
+          "Ay": "Haziran",
+          "PardusEtap": 3532,
+          "DebianCount": 2945999,
+          "Pardus17": 611,
+          "Pardus19": 2623,
+          "Pardus21": 41130,
+          "PardusToplam": 48196
+        },
+        {
+          "Ay": "Temmuz",
+          "PardusEtap": 1497,
+          "DebianCount": 2695120,
+          "Pardus17": 316,
+          "Pardus19": 1925,
+          "Pardus21": 119629,
+          "PardusToplam": 123358
+        },
+        {
+          "Ay": "Ağustos",
+          "PardusEtap": 3332,
+          "DebianCount": 4717753,
+          "Pardus17": 572,
+          "Pardus19": 5695,
+          "Pardus21": 38724,
+          "PardusToplam": 48323
+        },
+        {
+          "Ay": "Eylül",
+          "PardusEtap": 22468,
+          "DebianCount": 7808902,
+          "Pardus17": 454,
+          "Pardus19": 2988,
+          "Pardus21": 65156,
+          "PardusToplam": 91566
+        },
+        {
+          "Ay": "Ekim",
+          "PardusEtap": 12272,
+          "DebianCount": 6273303,
+          "Pardus17": 714,
+          "Pardus19": 1701,
+          "Pardus21": 37970,
+          "PardusToplam": 53157
+        },
+        {
+          "Ay": "Kasım",
+          "PardusEtap": 14803,
+          "DebianCount": 3427094,
+          "Pardus17": 450,
+          "Pardus19": 1666,
+          "Pardus21": 44542,
+          "PardusToplam": 61461
+        },
+        {
+          "Ay": "Aralık",
+          "PardusEtap": 12324,
+          "DebianCount": 3765634,
+          "Pardus17": 3378,
+          "Pardus19": 13105,
+          "Pardus21": 47770,
+          "PardusToplam": 76777
+        }
+      ]
+    }
+  ]
 }
