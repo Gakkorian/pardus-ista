@@ -86,30 +86,30 @@
         },
         {
           "Ay": "Ekim",
-          "PardusEtap": 9252,
+          "PardusEtap": 5196,
           "DebianCount": 5493624,
-          "Pardus19": 649,
-          "Pardus21": 1415,
-          "Pardus23": 22380,
-          "PardusToplam": 34444
+          "Pardus19": 573,
+          "Pardus21": 1065,
+          "Pardus23": 11352,
+          "PardusToplam": 18186
         },
         {
           "Ay": "Kasım",
-          "PardusEtap": 6390,
+          "PardusEtap": 2327,
           "DebianCount": 7032635,
-          "Pardus19": 597,
-          "Pardus21": 1519,
-          "Pardus23": 15688,
-          "PardusToplam": 17804
+          "Pardus19": 486,
+          "Pardus21": 791,
+          "Pardus23": 8641,
+          "PardusToplam": 12245
         },
         {
           "Ay": "Aralık",
-          "PardusEtap": 5188,
+          "PardusEtap": 3512,
           "DebianCount": 4533753,
-          "Pardus19": 1192,
-          "Pardus21": 2322,
-          "Pardus23": 30705,
-          "PardusToplam": 34219
+          "Pardus19": 631,
+          "Pardus21": 961,
+          "Pardus23": 11876,
+          "PardusToplam": 16980
         }
       ]
     }
