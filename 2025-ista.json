@@ -13,7 +13,13 @@
           "PardusToplam": 13201
         },
         {
-          "Ay": "Şubat"
+          "Ay": "Şubat",
+          "PardusEtap": 3525,
+          "DebianCount": 6568558,
+          "Pardus19": 916,
+          "Pardus21": 1336,
+          "Pardus23": 10600,
+          "PardusToplam": 16377
         },
         {
           "Ay": "Mart"
