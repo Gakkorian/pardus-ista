@@ -58,7 +58,13 @@
           "PardusToplam": 9928
         },
         {
-          "Ay": "Temmuz"
+          "Ay": "Temmuz",
+          "PardusEtap": 1374,
+          "DebianCount": 18488810,
+          "Pardus19": 275,
+          "Pardus21": 665,
+          "Pardus23": 7504,
+          "PardusToplam": 9818 
         },
         {
           "Ay": "Ağustos"
