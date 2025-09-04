@@ -67,7 +67,13 @@
           "PardusToplam": 9818 
         },
         {
-          "Ay": "Ağustos"
+          "Ay": "Ağustos",
+          "PardusEtap": 1787,
+          "DebianCount": 17663922,
+          "Pardus19": 440,
+          "Pardus21": 667,
+          "Pardus23": 8938,
+          "PardusToplam": 11832
         },
         {
           "Ay": "Eylül"
