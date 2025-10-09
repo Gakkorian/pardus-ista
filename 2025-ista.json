@@ -77,6 +77,12 @@
         },
         {
           "Ay": "Eylül"
+          "PardusEtap": 7610,
+          "DebianCount": 20205034,
+          "Pardus19": 346,
+          "Pardus21": 566,
+          "Pardus23": 17896,
+          "PardusToplam": 26418
         },
         {
           "Ay": "Ekim"
