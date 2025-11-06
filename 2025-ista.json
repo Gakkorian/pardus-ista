@@ -85,10 +85,22 @@
           "PardusToplam": 26418
         },
         {
-          "Ay": "Ekim"
+          "Ay": "Ekim",
+          "PardusEtap": 7610,
+          "DebianCount": 20205034,
+          "Pardus19": 346,
+          "Pardus21": 566,
+          "Pardus23": 17896,
+          "PardusToplam" 26418: 
         },
         {
-          "Ay": "Kasım"
+          "Ay": "Kasım",
+          "PardusEtap": 5690,
+          "DebianCount": 24575698,
+          "Pardus19": 595,
+          "Pardus21": 773,
+          "Pardus23": 16596,
+          "PardusToplam" 23654: 
         },
         {
           "Ay": "Aralık"
