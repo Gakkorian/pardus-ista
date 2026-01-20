@@ -103,7 +103,14 @@
           "PardusToplam": 23654
         },
         {
-          "Ay": "Aralık"
+          "Ay": "Aralık",
+          "PardusEtap": 5289,
+          "DebianCount": 32998604,
+          "Pardus19": 736,
+          "Pardus21": 870,
+          "Pardus23": 3855,
+          "Pardus25": 14853,
+          "PardusToplam": 25630
         }
       ]
     }
