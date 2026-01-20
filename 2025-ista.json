@@ -94,12 +94,13 @@
           "PardusToplam": 26418
         },
         {
-          "Ay": "Kasım",
+           "Ay": "Kasım",
           "PardusEtap": 5690,
           "DebianCount": 24575698,
           "Pardus19": 595,
           "Pardus21": 773,
           "Pardus23": 16596,
+          "Pardus25": 6594,
           "PardusToplam": 23654
         },
         {
