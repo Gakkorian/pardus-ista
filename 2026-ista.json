@@ -1,0 +1,53 @@
+{
+  "year": 2026,
+  "indirmeler": [
+    {
+      "pardus": [
+        {
+          "Ay": "Ocak",
+          "PardusEtap": 4528,
+          "DebianCount":31127393 ,
+          "Pardus19": 635,
+          "Pardus21": 712,
+          "Pardus23": 2817,
+          "Pardus25": 11361,
+          "PardusToplam": 20053
+        },
+        {
+          "Ay": "Şubat"
+        },
+        {
+          "Ay": "Mart"
+        },
+        {
+          "Ay": "Nisan"
+        },
+        {
+          "Ay": "Mayıs"
+        },
+        {
+          "Ay": "Haziran"
+        },
+        {
+          "Ay": "Temmuz"
+        },
+        {
+          "Ay": "Ağustos"
+        },
+        {
+          "Ay": "Eylül"
+        },
+        {
+          "Ay": "Ekim"
+        },
+        {
+           "Ay": "Kasım"
+        },
+        {
+          "Ay": "Aralık"
+          
+        }
+      ]
+    }
+  ]
+}
