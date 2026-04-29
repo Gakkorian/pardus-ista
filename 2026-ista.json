@@ -14,10 +14,24 @@
           "PardusToplam": 20053
         },
         {
-          "Ay": "Şubat"
+          "Ay": "Şubat",
+          "PardusEtap": 7215,
+          "DebianCount": 34241635,
+          "Pardus19": 276,
+          "Pardus21": 419,
+          "Pardus23": 3640,
+          "Pardus25": 22315,
+          "PardusToplam": 33865
         },
         {
-          "Ay": "Mart"
+          "Ay": "Mart",
+          "PardusEtap": 5053,
+          "DebianCount":33829643 ,
+          "Pardus19": 688,
+          "Pardus21": 914,
+          "Pardus23": 4265,
+          "Pardus25": 23558,
+          "PardusToplam": 34478
         },
         {
           "Ay": "Nisan"
